@@ -59,6 +59,19 @@
         <string>#4F4F4F</string>
       </dict>
     </dict>
+        <dict>
+  <key>name</key>
+  <string>TODO</string>
+  <key>scope</key>
+  <string>annotation.todo</string>
+  <key>settings</key>
+  <dict>
+    <key>fontStyle</key>
+    <string>bold</string>
+    <key>foreground</key>
+    <string>#C42F0E</string>
+  </dict>
+  </dict>
     <dict>
       <key>name</key>
       <string>Text</string>
@@ -107,7 +120,7 @@
       <key>name</key>
       <string>Punctuation</string>
       <key>scope</key>
-      <string>punctuation.definition.string, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
+      <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -1058,6 +1071,32 @@ meta.property-value support.constant.named-color.css</string>
       <dict>
         <key>foreground</key>
         <string>#FFEB95</string>
+      </dict>
+    </dict>
+  <dict>
+      <key>name</key>
+      <string>NOTE</string>
+      <key>scope</key>
+      <string>annotation.note</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#008900</string>
+      </dict>
+    </dict>
+      <dict>
+      <key>name</key>
+      <string>IMPORTANT</string>
+      <key>scope</key>
+      <string>annotation.important</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#CFC927</string>
       </dict>
     </dict>
   </array>
